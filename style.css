@@ -1,0 +1,29 @@
+body{
+	background-color:#ff9933;
+}
+
+.container{
+	margin-top:100px;
+	
+}
+
+
+label{
+	font-weight:400;
+	font-size:18px;
+	color:#00acee;
+}
+
+h1{
+	color:  #00acee;
+}
+.btn-primary{
+	background-color:#00acee;
+	box-shadow: 5px 3px 5px 2px black;
+}
+
+
+.form-group{
+	box-shadow:5px 3px 5px 2px black;
+
+}
