@@ -14,26 +14,44 @@
   </head>
   <body>
     
-     <div class="container  text-center">
-      <div class="mb-2 mt-2">
-      <h1>Tweet4India</h1>
-    </div>
-    <label for="exampleFormControlTextarea1">Write Your Tweet</label>
+      
 
-          <form>
-              <div class="form-group mt-2">
+    
+     <div  class="container  text-center">
+        <div class = "row">
+          <div class="col-sm-12 col-xs-12 ">
 
-                  
-                  <textarea id="content" class="form-control" rows="5" maxlength="280"></textarea>
+            <div class ="image">
+              <img class="image-responsive" src="flag.svg" alt="logo" style="width:150px;">
+            </div>
+
+                <div class="mb-2 mt-3">
+                    <h1>Tweet4India</h1>
+                </div> 
 
 
-              </div>
-
+                <label for="exampleFormControlTextarea1">Write Your Tweet</label>
                 
-              <button id="button" type="submit" class="btn btn-primary" onclick="tweetLink()">Copy Link</button>
-          </form>
-       
+
+ 
+              <form id="mainForm">
+                  <div class="form-group mt-">
+                      <textarea id="content" onmouseover = "document.getElementById('demo').style.display = 'none'" ondblclick = "this.value=''" class="form-control" rows="5" maxlength="280"></textarea>
+                  </div>
+              </form>
+
+             
+              <p id="demo">Link Copied</p>
+   
+              <button id="button" type="submit" class="btn btn-primary mb-5" onclick="tweetLink()">Copy Link</button>
+
+          </div>
+       </div>
      </div>
+
+
+
+
 
 
    

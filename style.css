@@ -1,9 +1,13 @@
 body{
-	background-color:#ff9933;
+	/*background-color:#ff9933;*/
 }
 
+
+
+	
 .container{
-	margin-top:100px;
+	/*background-color:#ff9933;*/
+	margin-top:60px;s
 	
 }
 
@@ -12,18 +16,34 @@ label{
 	font-weight:400;
 	font-size:18px;
 	color:#00acee;
+	font-weight: bold;
+	margin-top:40px;
 }
 
 h1{
-	color:  #00acee;
+	color:#00acee;
 }
 .btn-primary{
-	background-color:#00acee;
-	box-shadow: 5px 3px 5px 2px black;
+	background-color:#ff9933;
+	box-shadow: 5px 3px 5px 2px #128807;
+	font-weight: bold;
 }
 
 
 .form-group{
-	box-shadow:5px 3px 5px 2px black;
+	box-shadow:5px 3px 5px 2px #ff9933;
 
 }
+
+#demo{
+	background-color:#00acee;
+	display:none;
+	width:100px;
+	margin:40px auto;
+	color:#00acee;
+	font-weight: bold;
+	color: white;
+
+}
+
+
